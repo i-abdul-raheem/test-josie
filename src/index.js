@@ -21,4 +21,4 @@ app.listen(process.env.PORT, () => {
   console.log(`server started at: http://localhost:${process.env.PORT}`);
 });
 
-module.exports = { app };
+module.exports = app;
